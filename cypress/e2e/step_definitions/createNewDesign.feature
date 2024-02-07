@@ -16,7 +16,6 @@ Scenario Outline: Verify design Category list names
     And Verifies list name
         | Popular  | Social Media Covers | Social Media Posts | Profile Pictures | Brand Identity | Videos | Custom Design |
 
-@smoke
 Scenario: Template Search
     When User clicks on the Create New Design
     And Type Food in the Search box
@@ -41,7 +40,6 @@ Scenario: Design Templates
     When User click on Back To All templates
     Then It navigates back to Create New Design page
 
-@only
 Scenario: Social Media Templates
     When User clicks on the Create New Design
     And the user clicks Instagram Story template button

@@ -21,9 +21,6 @@ Then("All the sub-Categories of Instagram should be selected",() =>{
     InstagramSubCategories.forEach(subCategory=>{
         cy.get(`[id="${subCategory}"]`).eq(0).should('be.checked')
     })
-    /*cy.get('[id="Instagram Post"]').eq(0).should('be.checked')
-    cy.get('[id="Instagram Story"]').eq(0).should('be.checked')
-    cy.get('[id="Instagram Reel"]').eq(0).should('be.checked')*/
 })
 
 When("User select Facebook Category",()=>{
@@ -34,12 +31,6 @@ Then("All the sub-Categories of Facebook should be selected",() =>{
     FacebooksubCategories.forEach(subCategory=>{
         cy.get(`[id="${subCategory}"]`).eq(0).should('be.checked')
     })
-    /*cy.get('[id="Facebook Cover"]').eq(0).should('be.checked')
-    cy.get('[id="Facebook Post"]').eq(0).should('be.checked')
-    cy.get('[id="Facebook Profile Picture"]').eq(0).should('be.checked')
-    cy.get('[id="Facebook Story"]').eq(0).should('be.checked')
-    cy.get('[id="Facebook Ad"]').eq(0).should('be.checked')
-    cy.get('[id="Facebook Event Cover"]').eq(0).should('be.checked')*/
 })
 
 Then("Result template names should match Instagram sub-Category names",() =>{

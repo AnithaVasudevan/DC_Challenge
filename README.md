@@ -10,3 +10,7 @@ npm install
 
 # launch the cypress test runner
 npx cypress open
+
+# Test Scenario details
+createNewDesign.feature contains create new design scenarios,
+searchDesignTemplate.feature contains Design template search scenarios

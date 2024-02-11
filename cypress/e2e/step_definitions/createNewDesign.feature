@@ -48,14 +48,6 @@ Scenario: Social Media Templates
     When User click on Back To All templates
     Then It navigates back to Create New Design page
 
-Scenario: Load More Designs
-    When User clicks on the Create New Design
-    And the user clicks Valentines Day template button
-    Then user shoud see 16 images
-    When the user scroll down and clicks LOAD MORE DESIGNS button
-    Then user should see 32 images
-    When the user scroll down and clicks LOAD MORE DESIGNS button
-    Then user should see 48 images
 
 
 

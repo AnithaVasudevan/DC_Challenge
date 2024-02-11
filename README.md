@@ -12,5 +12,5 @@ npm install
 npx cypress open
 
 # Test Scenario details
-createNewDesign.feature contains create new design scenarios
+createNewDesign.feature contains create new design scenarios,
 searchDesignTemplate.feature contains Design template search scenarios
